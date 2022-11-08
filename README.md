@@ -1,3 +1,10 @@
+#Integrantes:
+
+Edgar Felipe Hurtado Pardo 20221099005 
+Jorge Esteban Llanos Bermudez 20221099006 
+Andersson Salinas Gonzalez 20221099015
+
+
 # Autogeneracion de microservicios de la tiendita
 
 Primero instalar jinja 2 :
