@@ -1,4 +1,4 @@
-#Integrantes:
+# Integrantes:
 
 Edgar Felipe Hurtado Pardo 20221099005 
 Jorge Esteban Llanos Bermudez 20221099006 
