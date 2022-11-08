@@ -1,0 +1,71 @@
+entity Cliente {
+  identificacion : integer
+  nombre : string       
+  apellido : string     
+  direccion: Direccion          
+  telefono : Telefono  
+  correo : string      
+}                     
+
+entity Direccion {
+  calle : string
+  ciudad : string
+  pais : string
+  numero : integer
+}
+
+entity Telefono {
+  indicador : string
+  numero : string
+}
+
+entity Producto {
+  codproducto : integer
+  codigobarras : string
+  nombre : string
+  categoria : Categoria
+  valor : integer
+  estado : Estado
+}
+
+entity Estado {
+
+  nombre : string
+  descripcion : string
+
+}
+
+entity Categoria {
+
+  nombre : string
+  descripcion : string
+
+}
+
+
+entity Pedido {
+
+  codPedido : integer
+  fechayhora : string       
+  idCliente : Cliente     
+  direccion : Direccion
+  observaciones: string
+  metodosdePago : MetodosdePago
+  valorTotal : integer
+}  
+
+entity DescripcionPedido {
+
+  idPedido : Pedido
+  producto : Producto       
+  cantidad : integer     
+  valorUnitario : integer 
+  valorTotal: integer
+}  
+
+entity MetodosdePago {
+
+  nombre : string       
+  descripcion : string     
+  
+}  

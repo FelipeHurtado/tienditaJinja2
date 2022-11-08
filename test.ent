@@ -1,0 +1,22 @@
+entity cliente {
+  identificacion : integer
+  nombre : string       
+  apellido : string     
+  direccion: string          
+  telefono : string  
+  correo : string      
+}                     
+
+
+entity producto {
+  codproducto : integer
+  codigobarras : string
+  nombre : string
+  categoria : string
+  valor : integer
+  estado : string
+}
+
+
+
+

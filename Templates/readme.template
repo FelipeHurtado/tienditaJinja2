@@ -1,0 +1,15 @@
+#Mi tiendita con microservicios
+
+Para ejecutar el proyecto en el terminal
+<code>
+docker-compose up
+</code>
+
+luego desde el navegador
+{% for entity in tiendita_model.entities %}
+<code>
+http://localhost:8080/{{entity.name}}/
+</code>
+         
+{% endfor %}
+
